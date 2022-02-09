@@ -7,7 +7,7 @@ function showMessage() {
     console.log(message);
   }
 }
-console.log(message);
+//console.log(message);
 
 showMessage();
 //Eslint is active, it highlights errros ,
