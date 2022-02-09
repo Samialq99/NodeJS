@@ -10,3 +10,6 @@ function showMessage() {
 console.log(message);
 
 showMessage();
+//Eslint is active, it highlights errros ,
+//eslint-disable-next-line no-console
+// this stops eslint error regarding no console logs rule for example
