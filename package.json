@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Samialq99/NodeJS/issues"
   },
-  "homepage": "https://github.com/Samialq99/NodeJS#readme"
+  "homepage": "https://github.com/Samialq99/NodeJS#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  }
 }

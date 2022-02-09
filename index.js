@@ -7,5 +7,6 @@ function showMessage() {
     console.log(message);
   }
 }
+console.log(message);
 
 showMessage();
