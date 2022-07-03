@@ -13,8 +13,8 @@ for (let i = 0; i <= arr.length - 1; i++) {
     outputarray.push(arr[i]);
     console.log("outputarray =", outputarray);
   } else if (i > 0) {
-    outputarray.push(arr[i] + outputarray[i - 1]); // this loop is only adding 2 but ignores the previous index i-2
+    outputarray.push(arr[i] + outputarray[i - 1]); // this loop (arr[i]+arr[i-1]) is only adding 2 but ignores the previous index i-2 this was fixed
   }
 }
-
 console.log(outputarray);
+// this is my solution and it works.
